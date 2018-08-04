@@ -1,0 +1,62 @@
+body {
+  /* background-color: aquamarine; */
+  margin: auto;
+}
+
+.main{
+  margin: auto;
+}
+
+.plus {
+
+}
+
+.navUl {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.psImgMain {
+  /* margin: auto; */
+  background-color: aquamarine;
+  /* display: inline-block; */
+  /* flex-flow: column wrap; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 10px; */
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+.bg {
+  /* background-image: url("./assets/bg.jpg"); */
+}
+
+.psMain {
+  background-size: cover;
+}
+
+.psTitle {
+  font-family: 'Oswald', sans-serif;
+  width: 200px;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+}
+
+.psCombo {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  height: 40px;
+}
+
+.psBy {
+  margin-right: 5px;
+}
